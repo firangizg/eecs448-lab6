@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="formChecker.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Web Store</h1>
+        <!--Account info form-->
+        <form id="shopping" action="customerBackend.php" method="post" onsubmit="validate()">
+        Username:&nbsp;<input type="email" name="username" id="username"><br>
+        Password:&nbsp;&nbsp;<input type="password" name="userPassword" id="userPassword"><br><br>
+        
+        <!--Ask for the amount of products-->
+        <p>What quantity of the products would you like to purchase?:</p>
+        <div align="center">
+            <input type="number" class="amount" min="0" value="0" id="Latte" name="Latte"> Cafè Latte, $4.25<br>
+            <input type="number" class="amount" min="0" value="0" id="Cappucino" name="Cappucino"> Cappucino, $4.25<br>
+            <input type="number" class="amount" min="0" value="0" id="Mocha" name="Mocha"> Cafè Mocha, $5.05<br>
+            <input type="number" class="amount" min="0" value="0" id="Americano" name="Americano"> Americano, $3.45<br>
+            <input type="number" class="amount" min="0" value="0" id="ColdBrew" name="ColdBrew"> Cold Brew, $4.45<br><br>
+        </div>
+        <!--Ask for the shipping method-->
+        <p>Select shipping method:</p>
+            <input type="radio" name="shipping" value="Free 7 day"> Free 7 day<br>
+            <input type="radio" name="shipping" value="$50.00 over night"> $50.00 over night<br>
+            <input type="radio" name="shipping" value="$5.00 three day"> $5.00 three day<br><br>
+
+        <input type="reset" value="Reset">
+        <input type="button" value="Submit" onclick="validate()">
+        </form>
+    </body>
+</html>

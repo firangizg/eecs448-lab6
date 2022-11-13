@@ -1,0 +1,37 @@
+input[class=quantity] {
+  width: 2%;
+  padding: 10px 5px;
+}
+  
+table {
+  width:30%;
+  margin-left:35%;
+  margin-right:35%;
+  text-align: center;
+  background-color: white;
+  color: rgb(250, 56, 56);
+  border: 1px solid rgb(221, 18, 18);
+}
+
+th, td, tr {
+  border: 1px solid rgb(198, 43, 43);
+  background-color: rgb(173, 230, 175);
+}
+
+h3, h4 {
+  text-align:center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h1 {
+  text-align:center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(223, 255, 203);
+}
+
+body {
+  text-align:center;
+  color: rgb(161, 55, 55);
+  background-color: white;
+}

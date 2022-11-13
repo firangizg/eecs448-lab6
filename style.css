@@ -1,0 +1,44 @@
+body {
+    background-color: #646E78;
+}
+.flex-container {
+    display: flex;
+    margin-top: 15%;
+    padding: 10px;
+}
+.flex-child {
+    flex: 1;
+}  
+
+.box1 {
+    background-color: #8D98A7;
+    border-radius: 20%;
+    padding: 50px;
+}
+
+.box2 {
+    background-color: #DCCCBB;
+    border-radius: 20%;
+    padding: 50px;
+}
+
+.box3 {
+    background-color: #EAB464 ;
+    border-radius: 20%;
+    padding: 50px;
+}
+
+a {
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
